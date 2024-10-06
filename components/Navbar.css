@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #a92828;
+    color: white;
+    padding: 0 4ream;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: white;
+}

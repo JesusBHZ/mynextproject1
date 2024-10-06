@@ -1,5 +1,6 @@
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
 import { Roboto } from "next/font/google";
+import "./globals.css";
 
 export const metadata = {
   title: "Tienda con Next JS",
@@ -10,10 +11,10 @@ export const metadata = {
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
   styles: ["latin"],
-  subsets: ["latin-ext"],
+  subsets: ["latin-ext"], 
 });
  
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) { 
   return (
     <html>
     <body className={roboto.className}>
